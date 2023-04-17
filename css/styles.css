@@ -1,8 +1,10 @@
+
 /* En este archivo escriban su CSS */
 
 /* Fonts */
 /* Importar aquí la font */
 
+* width:100%; /* Ojo con este width*/
 
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
@@ -11,9 +13,11 @@
 
 /* Reset */
 * {
+
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
