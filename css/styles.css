@@ -4,13 +4,21 @@
 }
 
 .icono_html {
+    display: ;
+    
 
+    width: 100%;
+    max-width: 40px;
+}
+.icono_css {
+    display:;
     width: 100%;
     max-width: 40px;
 }
 
 header {
-    text-align:left;
+
+    text-align:center;
     width: 100% 50%;
     max-width: 1200px;
     background-color: aquamarine;
@@ -35,11 +43,6 @@ ul {
     ;
 }
 
-.icono_css {
-    
-    width: 100%;
-    max-width: 40px;
-}
 /* En este archivo escriban su CSS */
 
 img {
