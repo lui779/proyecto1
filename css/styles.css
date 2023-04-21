@@ -23,9 +23,10 @@ main {
   margin: auto;
 }
 div {
-    display: flex;
+    display:inline-block;
     flex-direction:row;
-    justify-content:center;
+    justify-content:;
+
     padding: 0.1em;
     margin: 0.1em;
 }
@@ -39,8 +40,8 @@ div {
     
     width: 100%;
     max-width: 40px;
-    
-  }
+     
+}
 
   
 header {
@@ -62,9 +63,7 @@ header {
   width: 100% 50%;
   max-width: 200px;
   align-items: center;
-  
-
-  /* En este archivo escriban su CSS */
+    /* En este archivo escriban su CSS */
 }
 /* Fonts */
 /* Importar aquí la font */
