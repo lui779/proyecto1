@@ -1,10 +1,13 @@
 * {
     box-sizing: border-box;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
 .icono_html {
-    display: ;
+    display: flexbox;
+
     
 
     width: 100%;
@@ -17,19 +20,19 @@
 }
 
 header {
+    text-decoration: none;
 
-    text-align:center;
     width: 100% 50%;
     max-width: 1200px;
     background-color: aquamarine;
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
+    text-decoration: none;
     
 }
 
 ul {
     list-style: none;
-    text-decoration: none;
     scroll-behavior: smooth;
     padding: 0;
     margin: auto;
