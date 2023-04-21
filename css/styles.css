@@ -1,65 +1,75 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+}
+ul {
+  list-style: none;  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 2em;
+  margin: auto;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+div {
+    display: flex;
+    flex-direction:initial;
+    justify-content: center;
 }
 
 .icono_html {
-    display: flexbox;
-
-    
-
-    width: 100%;
-    max-width: 40px;
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 40px;
 }
 .icono_css {
-    display:;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     max-width: 40px;
-}
-
+    
+  }
+  
 header {
-    text-decoration: none;
 
-    width: 100% 50%;
-    max-width: 1200px;
-    background-color: aquamarine;
-    padding: 10px;
-    margin: 20px;
-    text-decoration: none;
-    
+  width: 100%;
+  max-width: 100%;
+  background-color: aquamarine;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
 }
 
-ul {
-    list-style: none;
-    scroll-behavior: smooth;
-    padding: 0;
-    margin: auto;
-    text-align: center;
-    font-size: 15px;
-    border: 5px;
+#inicio {
+  text-align: center;
 
 }
 
-.foto {
-    ;
-}
+#foto {
+  width: 100% 50%;
+  max-width: 200px;
+  align-items: center;
+  
 
-/* En este archivo escriban su CSS */
-
-img {
-
-    width: 100%;
-    max-width: 200px;
-    
+  /* En este archivo escriban su CSS */
 }
 /* Fonts */
 /* Importar aquí la font */
 
-
-
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
 *  cuyos valores asigna por defecto el navegador.
 */
-
