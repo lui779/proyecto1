@@ -1,70 +1,90 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
+  box-sizing:border-box;
+  margin: 10;
   padding: 0;
   scroll-behavior: smooth;
   list-style: none;
-}
-body{
-    font-family: 'Courier New', Courier, monospace;
-    align-items: center;
+  text-decoration: none;
 }
 
+header{
+  width: 100%;
+  max-width: 1600px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color:aqua;
+  margin: 5px;
+}
+
+.icono1{
+  width: 100%;
+  max-width: 80px;
+  min-width: 70px;
+  }  
+  .icono2{
+    width: 100%;
+    max-width: 80px;
+    min-width: 70px;
+  }
+
+img{
+  width: 70%;
+  max-width: 80px;
+  min-width: 80px;
+}
 
 a {
-  text-decoration: none;
   color: inherit;
-  padding: 2em;
-  margin: auto;
+  padding: 0.1em;
+  margin: 0.3em;   
 }
 
-main {
-  max-width: 1200px;
-  margin: auto;
+.button1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
 }
-div {
-    display:inline-block;
-    flex-direction:row;
-    justify-content:;
-
-    padding: 0.1em;
-    margin: 0.1em;
-}
-
-.icono_html {
-  
-  width: 100%;
-  max-width: 40px;
-}
-.icono_css {
-    
-    width: 100%;
-    max-width: 40px;
-     
-}
-
-  
-header {
-
-  width: 100%;
-  max-width: 100%;
-  background-color: aquamarine;
-  padding: 10px;
-  margin: 10px;
-
+.button2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
 }
 
 #inicio {
   text-align: center;
-
 }
 
 #foto {
   width: 100% 50%;
   max-width: 200px;
   align-items: center;
-    /* En este archivo escriban su CSS */
+  border-radius: 10%;
 }
+
+.button3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background-color: none;
+}
+
+#contacto{
+  text-align: center;
+  background-color: aqua;
+  justify-content: center;
+}
+
+
+
+
+
+
+    /* En este archivo escriban su CSS */
+
 /* Fonts */
 /* Importar aquí la font */
 
