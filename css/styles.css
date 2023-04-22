@@ -1,5 +1,5 @@
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
   margin: 10;
   padding: 0;
   scroll-behavior: smooth;
@@ -7,28 +7,31 @@
   text-decoration: none;
 }
 
-header{
+header {
   width: 100%;
   max-width: 1600px;
   padding: 30px;
   display: flex;
   flex-direction: row;
-  background-color:aqua;
+  background-color: aqua;
   margin: 5px;
 }
 
-.icono1{
+h2 {
+  text-align: center;
+}
+.icono1 {
   width: 100%;
   max-width: 80px;
   min-width: 70px;
-  }  
-  .icono2{
-    width: 100%;
-    max-width: 80px;
-    min-width: 70px;
-  }
+}
+.icono2 {
+  width: 100%;
+  max-width: 80px;
+  min-width: 70px;
+}
 
-img{
+img {
   width: 70%;
   max-width: 80px;
   min-width: 80px;
@@ -37,16 +40,16 @@ img{
 a {
   color: inherit;
   padding: 0.1em;
-  margin: 0.3em;   
+  margin: 0.3em;
 }
 
-.button1{
+.button1 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5px;
 }
-.button2{
+.button2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,26 +67,41 @@ a {
   border-radius: 10%;
 }
 
-.button3{
+.button3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px;
-  background-color: none;
+  margin: 1px;
 }
 
-#contacto{
+#contacto {
   text-align: center;
   background-color: aqua;
   justify-content: center;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
 
+.mail {
+  width: 100%;
+  max-width: 2px;
+  display: flex;
+  justify-content: left;
+}
 
+footer {
+  width: 100%;
+  max-width: 1600px;
+  background-color: aqua;
+  align-content: center;
+  text-align: center;
+}
 
-
-
-    /* En este archivo escriban su CSS */
+/* En este archivo escriban su CSS */
 
 /* Fonts */
 /* Importar aquí la font */
